@@ -18,12 +18,12 @@ def main():
     
     if choice == "2":
         # 导入命令行模块并启动
-        from main import main as cli_main
+        from src.main import main as cli_main
         cli_main()
     else:
         # 默认启动图形界面
         try:
-            from gui import main as gui_main
+            from src.gui import main as gui_main
             gui_main()
         except ImportError as e:
             print(f"启动图形界面失败: {e}")
@@ -31,7 +31,7 @@ def main():
             print("尝试使用命令行模式...")
             
             try:
-                from main import main as cli_main
+                from src.main import main as cli_main
                 cli_main()
             except ImportError as e2:
                 print(f"启动命令行模式也失败: {e2}")
