@@ -50,7 +50,8 @@ Python/
 
 1. 克隆此仓库
    ```bash
-   git clone https://github.com/[您的用户名]/Python.git
+   git clone https://github.com/LanenXire/Python.git
+   git clone https://gitee.com/lanenDCku/python.git
    cd Python
    ```
 
