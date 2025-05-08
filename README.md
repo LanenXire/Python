@@ -2,7 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-这个仓库包含了各种Python练习项目，用于学习和实践Python编程技能。每个子目录都是一个独立的项目，有各自的功能和用途。
+个人进行Python练习的项目，用于学习和实践Python编程技能。
+每个子目录都是一个独立的项目，有各自的功能和用途。
 
 ## 项目结构
 
